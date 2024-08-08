@@ -94,7 +94,7 @@ for value in myList {
 }
 
 var index = 0
-whila index < myList.count {
+while index < myList.count {
     print(myList[index])
     index += 1
     
@@ -102,7 +102,7 @@ whila index < myList.count {
 
 //Funciones
 
-func myFunc() -> String {
+func myFunc(argumento1, argumento2) -> String {
     return "Esto es una Funcion"
 }
 
